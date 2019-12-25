@@ -11,6 +11,7 @@ def add_character(show, name)
   
   if (name == " ") 
     BASE_HOA[:show] << name
+    puts :show
   end
   
   show
