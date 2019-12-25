@@ -9,11 +9,8 @@ def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
   
-  if (name == " ") 
-    BASE_HOA[:show] << name
-    puts BASE_HOA[:show]
-  end
+  BASE_HOA << name
   
-  
-  
+  BASE_HOA[show]
+
 end
