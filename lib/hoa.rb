@@ -14,6 +14,6 @@ def add_character(show, name)
     puts :show
   end
   
-  show
+  BASE_HOA[:show]
   
 end
